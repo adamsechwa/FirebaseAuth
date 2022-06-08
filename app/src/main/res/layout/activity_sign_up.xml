@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+
+<!--   /-->
+
+    <EditText
+        android:id="@+id/etSEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="10dp"
+        android:hint="Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/etSPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etSEmailAddress"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="13dp"
+        android:hint="Password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/etSConfPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etSPassword"
+        android:layout_marginTop="13dp"
+        android:paddingLeft="10dp"
+        android:hint="Confirm your password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnSSigned"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSConfPassword"
+        android:text="SignUp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvRedirectLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnSSigned"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="13dp"
+        android:hint="Do you have an account?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+
+
+</RelativeLayout>
